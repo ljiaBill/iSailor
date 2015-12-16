@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "54ccf0a6-1b4d-4d5b-80bf-318ca855a1a3++505",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "54ccf0a6-1b4d-4d5b-80bf-318ca855a1a3++505" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "54ccf0a6-1b4d-4d5b-80bf-318ca855a1a3++505" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "96023159-DD71-4578-ADBD-1252581A44F5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "54ccf0a6-1b4d-4d5b-80bf-318ca855a1a3++505" : "i05150713_Lazy\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iCrazy",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iCrazy\/iCrazy.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/code.taobao.org\/svn\/i05150713_Lazy",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "54ccf0a6-1b4d-4d5b-80bf-318ca855a1a3++505"
+    }
+  ]
+}
