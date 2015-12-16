@@ -1,0 +1,36 @@
+[ 2015-10-28T20:42:34+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/insert
+ERR: 1364:Field 'usernick' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `l_userinfo` (`l_user_userid`,`userphone`,`userimage`,`registerTime`) VALUES (NULL,NULL,NULL,NULL)
+ERR: 1364:Field 'usernick' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `l_userinfo` (`l_user_userid`,`userphone`,`userimage`,`registerTime`) VALUES (NULL,NULL,NULL,NULL)
+
+[ 2015-10-28T20:44:08+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/insert
+ERR: 1364:Field 'usernick' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `l_userinfo` (`l_user_userid`,`userphone`,`userimage`,`registerTime`) VALUES (NULL,NULL,NULL,NULL)
+ERR: 1364:Field 'usernick' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `l_userinfo` (`l_user_userid`,`userphone`,`userimage`,`registerTime`) VALUES (NULL,NULL,NULL,NULL)
+
+[ 2015-10-28T21:51:18+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/insert
+ERR: 1364:Field 'usernick' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `l_userinfo` (`l_user_userid`,`userphone`,`userimage`,`registerTime`) VALUES ('1','456789','sailor.png','099909990')
+ERR: 1364:Field 'usernick' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `l_userinfo` (`l_user_userid`,`userphone`,`userimage`,`registerTime`) VALUES ('1','456789','sailor.png','099909990')
+
+[ 2015-10-28T21:51:21+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/insert
+ERR: 1364:Field 'usernick' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `l_userinfo` (`l_user_userid`,`userphone`,`userimage`,`registerTime`) VALUES ('1','456789','sailor.png','099909990')
+ERR: 1364:Field 'usernick' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `l_userinfo` (`l_user_userid`,`userphone`,`userimage`,`registerTime`) VALUES ('1','456789','sailor.png','099909990')
+
+[ 2015-10-28T21:51:28+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/insert
+ERR: 1364:Field 'usernick' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `l_userinfo` (`l_user_userid`,`userphone`,`userimage`,`registerTime`) VALUES ('1','456789','sailor.png','099909990')
+ERR: 1364:Field 'usernick' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `l_userinfo` (`l_user_userid`,`userphone`,`userimage`,`registerTime`) VALUES ('1','456789','sailor.png','099909990')
+
+[ 2015-10-28T21:51:56+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/insert
+ERR: 1364:Field 'usernick' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `l_userinfo` (`l_user_userid`,`userphone`,`userimage`,`registerTime`) VALUES ('1','456789','sailor.png','099909990')
+ERR: 1364:Field 'usernick' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `l_userinfo` (`l_user_userid`,`userphone`,`userimage`,`registerTime`) VALUES ('1','456789','sailor.png','099909990')
+

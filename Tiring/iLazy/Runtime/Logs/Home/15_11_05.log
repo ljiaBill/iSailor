@@ -1,0 +1,2389 @@
+[ 2015-11-05T20:16:21+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.1338s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0049s ]
+
+[ 2015-11-05T20:16:21+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.1318s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0068s ]
+
+[ 2015-11-05T20:16:22+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.1016s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T20:19:17+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0020s ]
+
+[ 2015-11-05T20:19:17+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:19:18+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:25:38+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0029s ]
+
+[ 2015-11-05T20:25:38+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0039s ]
+
+[ 2015-11-05T20:25:39+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:25:54+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:25:58+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:28:05+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T20:28:50+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0010s ]
+
+[ 2015-11-05T20:28:50+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:28:51+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T20:33:32+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0010s ]
+
+[ 2015-11-05T20:33:32+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T20:33:33+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T20:34:03+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T20:34:03+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0010s ]
+
+[ 2015-11-05T20:34:04+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:34:15+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0010s ]
+
+[ 2015-11-05T20:34:15+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T20:34:16+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:41:34+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:41:34+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:41:35+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:42:10+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:42:10+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:42:11+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:43:35+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T20:43:35+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:43:36+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:44:18+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:44:18+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0010s ]
+
+[ 2015-11-05T20:44:19+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T20:44:51+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0010s ]
+
+[ 2015-11-05T20:44:51+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T20:44:52+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T20:45:26+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0010s ]
+
+[ 2015-11-05T20:45:26+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:45:27+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:52:18+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0010s ]
+
+[ 2015-11-05T20:52:18+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T20:52:19+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:52:32+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0020s ]
+
+[ 2015-11-05T20:52:32+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0039s ]
+
+[ 2015-11-05T20:52:33+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:53:22+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0039s ]
+
+[ 2015-11-05T20:53:22+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0059s ]
+
+[ 2015-11-05T20:53:24+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:54:00+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0010s ]
+
+[ 2015-11-05T20:54:00+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T20:54:01+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T20:54:10+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0010s ]
+
+[ 2015-11-05T20:54:10+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:54:11+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:54:22+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T20:54:22+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0010s ]
+
+[ 2015-11-05T20:54:23+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:55:12+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0010s ]
+
+[ 2015-11-05T20:55:13+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:55:14+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T20:55:34+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/update?orderid=11&status=-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE (  orderid = '11' )  [ RunTime:0.0000s ]
+SQL: UPDATE `l_order` SET `orderstatus`='-1' WHERE `orderid` = 11 [ RunTime:0.0244s ]
+
+[ 2015-11-05T20:55:43+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:55:45+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_order` ORDER BY orderid desc  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:56:06+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:56:09+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/update?orderid=10&status=-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE (  orderid = '10' )  [ RunTime:0.0000s ]
+SQL: UPDATE `l_order` SET `orderstatus`='-1' WHERE `orderid` = 10 [ RunTime:0.0039s ]
+
+[ 2015-11-05T20:56:12+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:56:13+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `l_order` ORDER BY orderid desc  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:56:19+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:57:21+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:57:21+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T20:57:22+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:57:24+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/update?orderid=9&status=-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE (  orderid = '9' )  [ RunTime:0.0000s ]
+SQL: UPDATE `l_order` SET `orderstatus`='-1' WHERE `orderid` = 9 [ RunTime:0.0088s ]
+
+[ 2015-11-05T20:57:26+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/update?orderid=8&status=-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE (  orderid = '8' )  [ RunTime:0.0010s ]
+SQL: UPDATE `l_order` SET `orderstatus`='-1' WHERE `orderid` = 8 [ RunTime:0.0068s ]
+
+[ 2015-11-05T20:59:42+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:59:42+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0039s ]
+
+[ 2015-11-05T20:59:43+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:59:53+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T20:59:54+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_order` ORDER BY orderid desc  [ RunTime:0.0010s ]
+
+[ 2015-11-05T21:00:34+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:01:11+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:01:11+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T21:01:12+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T21:02:35+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:02:35+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:02:36+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T21:04:17+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0029s ]
+
+[ 2015-11-05T21:04:17+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0049s ]
+
+[ 2015-11-05T21:04:19+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:05:57+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0303s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0010s ]
+
+[ 2015-11-05T21:05:57+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:05:58+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:13:38+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:13:38+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0010s ]
+
+[ 2015-11-05T21:13:39+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T21:13:53+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0029s ]
+
+[ 2015-11-05T21:13:53+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0059s ]
+
+[ 2015-11-05T21:13:54+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T21:14:51+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T21:14:51+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:14:52+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T21:16:29+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0010s ]
+
+[ 2015-11-05T21:16:29+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0049s ]
+
+[ 2015-11-05T21:16:30+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T21:16:33+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/update?orderid=6&status=-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `l_order` WHERE (  orderid = '6' )  [ RunTime:0.0000s ]
+SQL: UPDATE `l_order` SET `orderstatus`='-1' WHERE `orderid` = 6 [ RunTime:0.0156s ]
+
+[ 2015-11-05T21:16:43+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:16:44+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/update?orderid=5&status=-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_order` WHERE (  orderid = '5' )  [ RunTime:0.0000s ]
+SQL: UPDATE `l_order` SET `orderstatus`='-1' WHERE `orderid` = 5 [ RunTime:0.0039s ]
+
+[ 2015-11-05T21:22:10+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:22:10+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0010s ]
+
+[ 2015-11-05T21:22:11+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T21:22:17+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:22:19+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/update?orderid=4&status=-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_order` WHERE (  orderid = '4' )  [ RunTime:0.0000s ]
+SQL: UPDATE `l_order` SET `orderstatus`='-1' WHERE `orderid` = 4 [ RunTime:0.0039s ]
+
+[ 2015-11-05T21:23:19+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:23:19+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0010s ]
+
+[ 2015-11-05T21:23:20+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:23:22+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/update?orderid=2&status=-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_order` WHERE (  orderid = '2' )  [ RunTime:0.0000s ]
+SQL: UPDATE `l_order` SET `orderstatus`='-1' WHERE `orderid` = 2 [ RunTime:0.0186s ]
+
+[ 2015-11-05T21:23:50+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:23:50+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0010s ]
+
+[ 2015-11-05T21:23:51+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:23:53+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/update?orderid=1&status=-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `l_order` WHERE (  orderid = '1' )  [ RunTime:0.0000s ]
+SQL: UPDATE `l_order` SET `orderstatus`='-1' WHERE `orderid` = 1 [ RunTime:0.0166s ]
+
+[ 2015-11-05T21:26:09+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T21:26:09+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:26:10+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:27:19+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0049s ]
+
+[ 2015-11-05T21:27:19+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0049s ]
+
+[ 2015-11-05T21:27:20+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0029s ]
+
+[ 2015-11-05T21:27:23+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:27:27+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/update?orderid=12&status=-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE (  orderid = '12' )  [ RunTime:0.0010s ]
+SQL: UPDATE `l_order` SET `orderstatus`='-1' WHERE `orderid` = 12 [ RunTime:0.0137s ]
+
+[ 2015-11-05T21:30:17+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:30:17+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:30:18+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T21:30:26+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:31:01+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0020s ]
+
+[ 2015-11-05T21:31:01+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0029s ]
+
+[ 2015-11-05T21:31:02+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T21:33:05+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:33:05+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T21:33:06+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0029s ]
+
+[ 2015-11-05T21:34:03+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T21:34:03+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0039s ]
+
+[ 2015-11-05T21:34:04+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:34:09+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:35:23+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:35:23+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0010s ]
+
+[ 2015-11-05T21:35:24+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:35:36+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/search?data=%E5%BF%AB%E9%80%92
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `l_order` WHERE `ordertitle` LIKE '%快递%' ORDER BY orderid desc  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:43:52+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0078s ]
+
+[ 2015-11-05T21:43:52+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0098s ]
+
+[ 2015-11-05T21:43:53+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:44:27+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0010s ]
+
+[ 2015-11-05T21:44:27+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:44:28+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:46:37+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:46:37+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:46:38+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0010s ]
+
+[ 2015-11-05T21:48:19+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0010s ]
+
+[ 2015-11-05T21:48:19+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:48:20+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:49:08+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0010s ]
+
+[ 2015-11-05T21:49:08+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0029s ]
+
+[ 2015-11-05T21:49:09+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:49:31+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:49:31+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0039s ]
+
+[ 2015-11-05T21:49:32+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:50:08+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0313s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0020s ]
+
+[ 2015-11-05T21:50:08+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0322s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0020s ]
+
+[ 2015-11-05T21:50:09+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T21:50:26+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0107s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:50:26+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0020s ]
+
+[ 2015-11-05T21:50:26+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0029s ]
+
+[ 2015-11-05T21:50:41+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0010s ]
+
+[ 2015-11-05T21:50:41+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0029s ]
+
+[ 2015-11-05T21:50:42+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T21:51:36+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0010s ]
+
+[ 2015-11-05T21:51:36+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0029s ]
+
+[ 2015-11-05T21:51:36+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T21:52:49+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0010s ]
+
+[ 2015-11-05T21:52:49+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T21:52:50+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T21:53:11+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` ORDER BY orderid desc  [ RunTime:0.0010s ]
+
+[ 2015-11-05T22:05:59+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryOrderid?order=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: orderid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\OrderController.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `l_order` WHERE `orderid` = null  [ RunTime:0.0000s ]
+
+[ 2015-11-05T22:06:15+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryOrderid?orderid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE `orderid` = 1  [ RunTime:0.0000s ]
+
+[ 2015-11-05T22:09:44+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0010s ]
+
+[ 2015-11-05T22:09:44+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T22:09:45+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T22:15:57+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T22:15:57+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0010s ]
+
+[ 2015-11-05T22:15:58+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T22:16:03+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/search?data=%E5%BF%AB%E9%80%92
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE `ordertitle` LIKE '%快递%' ORDER BY orderid desc  [ RunTime:0.0000s ]
+
+[ 2015-11-05T22:16:44+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T22:16:44+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0000s ]
+
+[ 2015-11-05T22:16:45+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T22:16:47+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/search?data=%E5%BF%AB%E9%80%92
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `l_order` WHERE `ordertitle` LIKE '%快递%' ORDER BY orderid desc  [ RunTime:0.0000s ]
+
+[ 2015-11-05T22:17:45+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0264s ]
+
+[ 2015-11-05T22:17:45+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T22:17:46+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T22:17:48+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/search?data=%E5%BF%AB%E9%80%92
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE `ordertitle` LIKE '%快递%' ORDER BY orderid desc  [ RunTime:0.0010s ]
+
+[ 2015-11-05T22:22:38+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0000s ]
+
+[ 2015-11-05T22:22:38+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0029s ]
+
+[ 2015-11-05T22:22:39+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T22:22:42+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/search?data=%E5%BF%AB%E9%80%92
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE `ordertitle` LIKE '%快递%' ORDER BY orderid desc  [ RunTime:0.0010s ]
+
+[ 2015-11-05T22:22:48+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0010s ]
+
+[ 2015-11-05T22:22:49+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/update?orderid=5&status=-1&userid=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE (  orderid = '5' )  [ RunTime:0.0000s ]
+SQL: UPDATE `l_order` SET `orderstatus`='-1' WHERE `orderid` = 5 [ RunTime:0.0078s ]
+
+[ 2015-11-05T22:22:57+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/update?orderid=5&status=-1&userid=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE (  orderid = '5' )  [ RunTime:0.0000s ]
+SQL: UPDATE `l_order` SET `orderstatus`='-1' WHERE `orderid` = 5 [ RunTime:0.0000s ]
+
+[ 2015-11-05T22:24:09+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/update?orderid=5&status=-1&userid=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_order` WHERE (  orderid = '5' )  [ RunTime:0.0000s ]
+SQL: UPDATE `l_order` SET `orderstatus`='-1' WHERE `orderid` = 5 [ RunTime:0.0010s ]
+
+[ 2015-11-05T22:24:18+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/search?data=%E5%BF%AB%E9%80%92
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE `ordertitle` LIKE '%快递%' ORDER BY orderid desc  [ RunTime:0.0000s ]
+
+[ 2015-11-05T22:24:20+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/update?orderid=2&status=-1&userid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_order` WHERE (  orderid = '2' )  [ RunTime:0.0000s ]
+SQL: UPDATE `l_order` SET `orderstatus`='-1' WHERE `orderid` = 2 [ RunTime:0.0039s ]
+
+[ 2015-11-05T22:24:27+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/update?orderid=2&status=-1&userid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE (  orderid = '2' )  [ RunTime:0.0000s ]
+SQL: UPDATE `l_order` SET `orderstatus`='-1' WHERE `orderid` = 2 [ RunTime:0.0010s ]
+
+[ 2015-11-05T22:26:41+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0029s ]
+
+[ 2015-11-05T22:26:41+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0068s ]
+
+[ 2015-11-05T22:26:43+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T22:26:44+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/search?data=%E5%BF%AB%E9%80%92
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_order` WHERE `ordertitle` LIKE '%快递%' ORDER BY orderid desc  [ RunTime:0.0000s ]
+
+[ 2015-11-05T22:26:45+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/search?data=%E5%85%BC%E8%81%8C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `l_order` WHERE `ordertitle` LIKE '%兼职%' ORDER BY orderid desc  [ RunTime:0.0000s ]
+
+[ 2015-11-05T22:26:46+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/search?data=%E5%A4%96%E5%8D%96
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE `ordertitle` LIKE '%外卖%' ORDER BY orderid desc  [ RunTime:0.0000s ]
+
+[ 2015-11-05T22:26:47+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/search?data=%E5%9E%83%E5%9C%BE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_order` WHERE `ordertitle` LIKE '%垃圾%' ORDER BY orderid desc  [ RunTime:0.0000s ]
+
+[ 2015-11-05T22:26:52+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/search?data=m
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE `ordertitle` LIKE '%m%' ORDER BY orderid desc  [ RunTime:0.0000s ]
+
+[ 2015-11-05T22:26:53+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/search?data=ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE `ordertitle` LIKE '%ma%' ORDER BY orderid desc  [ RunTime:0.0000s ]
+
+[ 2015-11-05T22:26:54+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/search?data=mai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE `ordertitle` LIKE '%mai%' ORDER BY orderid desc  [ RunTime:0.0000s ]
+
+[ 2015-11-05T22:26:55+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/search?data=ma
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_order` WHERE `ordertitle` LIKE '%ma%' ORDER BY orderid desc  [ RunTime:0.0000s ]
+
+[ 2015-11-05T22:26:56+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/search?data=m
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE `ordertitle` LIKE '%m%' ORDER BY orderid desc  [ RunTime:0.0000s ]
+
+[ 2015-11-05T22:27:03+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/search?data=%E4%B9%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE `ordertitle` LIKE '%买%' ORDER BY orderid desc  [ RunTime:0.0000s ]
+
+[ 2015-11-05T22:27:06+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/update?orderid=1&status=-1&userid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE (  orderid = '1' )  [ RunTime:0.0000s ]
+SQL: UPDATE `l_order` SET `orderstatus`='-1' WHERE `orderid` = 1 [ RunTime:0.0039s ]
+
+[ 2015-11-05T22:29:01+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/update?orderid=1&status=-1&userid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE (  orderid = '1' )  [ RunTime:0.0000s ]
+SQL: UPDATE `l_order` SET `orderstatus`='-1' WHERE `orderid` = 1 [ RunTime:0.0000s ]
+
+[ 2015-11-05T22:30:21+08:00 ] 58.210.89.186 /iLazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `l_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T22:30:21+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/queryStatus?status=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE `orderstatus` = '2' ORDER BY orderid desc  [ RunTime:0.0010s ]
+
+[ 2015-11-05T22:30:22+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Location/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_location` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: userid C:\websoft\web\phpMyAdmin\iLazy\Home\Controller\LocationController.class.php 第 20 行.
+SQL: SELECT * FROM `l_location`  [ RunTime:0.0000s ]
+
+[ 2015-11-05T22:30:28+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/search?data=%E4%B9%B0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `l_order` WHERE `ordertitle` LIKE '%买%' ORDER BY orderid desc  [ RunTime:0.0010s ]
+
+[ 2015-11-05T22:30:31+08:00 ] 58.210.89.186 /iLazy/index.php/Home/Order/update?orderid=10&status=-1&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `l_order` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `l_order` WHERE (  orderid = '10' )  [ RunTime:0.0000s ]
+SQL: UPDATE `l_order` SET `orderstatus`='-1' WHERE `orderid` = 10 [ RunTime:0.0049s ]
+

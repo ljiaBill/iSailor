@@ -1,0 +1,1624 @@
+[ 2015-11-07T13:52:05+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-07T13:52:05+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0010s ]
+
+[ 2015-11-07T13:52:06+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0000s ]
+
+[ 2015-11-07T13:52:14+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E5%AF%BB%E6%89%BE%E8%87%AA%E6%9D%80%E4%B9%8B%E6%B3%95&insurance=0&orderid=12&phone=18344904404&price=3&remark=&status=-1&time=2015-11-07%2013%3A53%3A54&title=%E6%89%BE%E6%AD%BB&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0020s ]
+SQL: INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','12','找死','-1','3','2015-11-07 13:53:54','0','寻找自杀之法','','18344904404') [ RunTime:0.0029s ]
+
+[ 2015-11-07T13:52:25+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E7%9C%8B%E7%9C%8B%E7%9C%8B%E7%9C%8B%E7%9C%8B%E7%9C%8B%E7%9C%8B%EF%BC%8C%EF%BC%8C%EF%BC%8C%EF%BC%8C%EF%BC%8C%E9%82%A3%E6%98%AF%E4%BB%80%E4%B9%88%E5%82%BB%E9%80%BC&insurance=0&orderid=8&phone=15606946786&price=22&remark=&status=-1&time=2015-11-07%2013%3A54%3A05&title=%E5%8D%81%E4%B8%87%E4%B8%AA%E5%BC%84%E5%95%A5%E5%AD%90&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0020s ]
+SQL: INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','8','十万个弄啥子','-1','22','2015-11-07 13:54:05','0','看看看看看看看，，，，，那是什么傻逼','','15606946786') [ RunTime:0.0049s ]
+
+[ 2015-11-07T13:53:01+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E4%BB%8A%E5%A4%A9%E6%99%9A%E4%B8%8A%E4%BA%94%E7%82%B9%20%20%20%E4%B9%B0%E4%B8%80%E4%B8%AA%E7%99%BD%E8%8F%9C&insurance=0&orderid=10&phone=15046623624&price=20&remark=&status=-1&time=2015-11-07%2013%3A54%3A41&title=%E4%B9%B0%E8%8F%9C&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0020s ]
+SQL: INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','10','买菜','-1','20','2015-11-07 13:54:41','0','今天晚上五点   买一个白菜','','15046623624') [ RunTime:0.0039s ]
+
+[ 2015-11-07T13:53:10+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E6%98%8E%E5%A4%A9%E6%97%A9%E4%B8%8A%EF%BC%8C%E5%B8%AE%E5%BF%99%E4%B9%B0%E4%BB%BD%E8%8B%8F%E5%B7%9E%E6%97%A9%E6%8A%A5%EF%BC%8C%E9%80%81%E5%88%B0%E9%AB%98%E5%8D%9A%E6%95%99%E8%82%B2%E5%8C%BAG%E6%A5%BC%E4%BF%9D%E5%AE%89%E5%AE%A4&insurance=1&orderid=1&phone=15606946786&price=1&remark=%E5%BD%93%E5%A4%A9%E7%9A%84%E6%97%A9%E6%8A%A5&status=-1&time=2015-11-07%2013%3A54%3A49&title=%E4%B9%B0%E4%BB%BD%E6%8A%A5%E7%BA%B8&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0010s ]
+SQL: INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','1','买份报纸','-1','1','2015-11-07 13:54:49','1','明天早上，帮忙买份苏州早报，送到高博教育区G楼保安室','当天的早报','15606946786') [ RunTime:0.0039s ]
+
+[ 2015-11-07T13:54:40+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-07T13:54:40+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0010s ]
+
+[ 2015-11-07T13:54:41+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0000s ]
+
+[ 2015-11-07T13:54:50+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E4%BA%BA%E8%82%89%E6%90%9C%E7%B4%A2%20%E9%BB%84%E4%B8%80%E7%92%90&insurance=0&orderid=11&phone=18861331676&price=12&remark=&status=-1&time=2015-11-07%2013%3A56%3A29&title=%E6%89%BE%E4%BA%BA&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0010s ]
+SQL: INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','11','找人','-1','12','2015-11-07 13:56:29','0','人肉搜索 黄一璐','','18861331676') [ RunTime:0.0039s ]
+
+[ 2015-11-07T13:56:25+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-07T13:56:25+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0000s ]
+
+[ 2015-11-07T13:56:26+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0010s ]
+
+[ 2015-11-07T13:56:36+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E6%98%8E%E5%A4%A9%E4%B8%AD%E5%8D%88%E5%8F%96%E5%BF%AB%E9%80%92%EF%BC%88%E5%9C%86%E9%80%9A%EF%BC%89&insurance=1&orderid=2&phone=15046623624&price=10&remark=&status=-1&time=2015-11-07%2013%3A58%3A16&title=%E5%8F%96%E5%BF%AB%E9%80%92&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0010s ]
+SQL: INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','2','取快递','-1','10','2015-11-07 13:58:16','1','明天中午取快递（圆通）','','15046623624') [ RunTime:0.0039s ]
+
+[ 2015-11-07T13:57:36+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-07T13:57:36+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0000s ]
+
+[ 2015-11-07T13:57:37+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0000s ]
+
+[ 2015-11-07T13:57:58+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E5%91%A8%E6%97%A5%EF%BC%8C%20%E9%9A%8F%E6%97%B6%E9%83%BD%E5%8F%AF%E4%BB%A5%20%20&insurance=0&orderid=9&phone=11100&price=10&remark=&status=-1&time=2015-11-07%2013%3A59%3A38&title=%E6%89%93%E4%BA%BA&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0020s ]
+SQL: INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','9','打人','-1','10','2015-11-07 13:59:38','0','周日， 随时都可以  ','','11100') [ RunTime:0.0039s ]
+
+[ 2015-11-07T13:58:05+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E6%98%8E%E5%A4%A9%E4%B8%8B%E5%8D%88&insurance=0&orderid=7&phone=15606946786&price=10&remark=&status=-1&time=2015-11-07%2013%3A59%3A44&title=%E6%89%BE%E4%B8%AA%E4%BA%BA%E8%81%8A%E5%A4%A9&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0020s ]
+SQL: INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','7','找个人聊天','-1','10','2015-11-07 13:59:44','0','明天下午','','15606946786') [ RunTime:0.0039s ]
+
+[ 2015-11-07T13:58:29+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-07T13:58:29+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0000s ]
+
+[ 2015-11-07T13:58:30+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0000s ]
+
+[ 2015-11-07T13:58:35+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E5%91%A8%E5%85%AD%E6%99%9A%E4%B8%8A6%E7%82%B9%E5%88%B0%E6%9D%A8%E5%8D%97%E8%B7%AF%E5%8F%A3&insurance=0&orderid=6&phone=15606946786&price=11&remark=%E5%87%86%E6%97%B6&status=-1&time=2015-11-07%2014%3A00%3A15&title=%E5%8F%91%E4%BC%A0%E5%8D%95&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0020s ]
+SQL: INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','6','发传单','-1','11','2015-11-07 14:00:15','0','周六晚上6点到杨南路口','准时','15606946786') [ RunTime:0.0049s ]
+
+[ 2015-11-07T13:58:42+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E6%98%AF%E4%B8%80%E4%B8%AA%E5%BE%88%E8%BD%BB%E7%9A%84%E5%B0%8F%E4%B8%9C%E8%A5%BF%EF%BC%8C%E5%85%B7%E4%BD%93%E5%8D%95%E5%8F%B7%EF%BC%9A%E8%AF%B7%E7%94%B5%E8%AF%9D%E8%81%94%E7%B3%BB%E6%88%91&insurance=0&orderid=5&phone=18861331676&price=2&remark=%E6%98%93%E7%A2%8E&status=-1&time=2015-11-07%2014%3A00%3A22&title=%E5%8E%BB%E6%A0%A1%E5%9B%AD%E5%BF%AB%E9%80%92%E5%8F%96%E5%BF%AB%E9%80%92&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0020s ]
+SQL: INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','5','去校园快递取快递','-1','2','2015-11-07 14:00:22','0','是一个很轻的小东西，具体单号：请电话联系我','易碎','18861331676') [ RunTime:0.0049s ]
+
+[ 2015-11-07T13:58:54+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E5%88%B0%E6%96%87%E6%98%9F%E5%B9%BF%E5%9C%BA%20%20%E5%90%83%E5%90%83%E5%90%83%E3%80%82%E3%80%82%E3%80%82%E3%80%82&insurance=0&orderid=4&phone=110&price=1&remark=&status=-1&time=2015-11-07%2014%3A00%3A34&title=%E5%90%83%E9%A5%AD%E5%8E%BB&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0020s ]
+SQL: INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','4','吃饭去','-1','1','2015-11-07 14:00:34','0','到文星广场  吃吃吃。。。。','','110') [ RunTime:0.0039s ]
+
+[ 2015-11-07T14:05:10+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-07T14:05:10+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0000s ]
+
+[ 2015-11-07T14:05:11+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0010s ]
+
+[ 2015-11-07T14:07:01+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-07T14:07:01+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0000s ]
+
+[ 2015-11-07T14:07:01+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0000s ]
+
+[ 2015-11-07T14:11:34+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-07T14:11:34+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0000s ]
+
+[ 2015-11-07T14:11:34+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0000s ]
+
+[ 2015-11-07T14:13:31+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-07T14:13:31+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0029s ]
+
+[ 2015-11-07T14:13:32+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0000s ]
+
+[ 2015-11-07T14:19:35+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0000s ]
+
+[ 2015-11-07T14:19:35+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-07T14:19:35+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0000s ]
+
+[ 2015-11-07T14:23:06+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-07T14:23:06+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0000s ]
+
+[ 2015-11-07T14:23:07+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0000s ]
+
+[ 2015-11-07T14:23:48+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-07T14:23:48+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0000s ]
+
+[ 2015-11-07T14:23:49+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0000s ]
+
+[ 2015-11-07T14:24:22+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-07T14:24:23+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0000s ]
+
+[ 2015-11-07T14:24:23+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0000s ]
+
+[ 2015-11-07T14:27:16+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-07T14:27:16+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0010s ]
+
+[ 2015-11-07T14:27:16+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0000s ]
+
+[ 2015-11-07T14:28:48+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-07T14:28:48+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0000s ]
+
+[ 2015-11-07T14:28:48+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0000s ]
+
+[ 2015-11-07T14:28:54+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E4%BA%BA%E8%82%89%E6%90%9C%E7%B4%A2%20%E9%BB%84%E4%B8%80%E7%92%90&insurance=0&orderid=11&phone=18861331676&price=12&remark=&status=-1&time=2015-11-07%2014%3A30%3A33&title=%E6%89%BE%E4%BA%BA&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0020s ]
+SQL: INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','11','找人','-1','12','2015-11-07 14:30:33','0','人肉搜索 黄一璐','','18861331676') [ RunTime:0.0049s ]
+
+[ 2015-11-07T14:28:55+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E4%BA%BA%E8%82%89%E6%90%9C%E7%B4%A2%20%E9%BB%84%E4%B8%80%E7%92%90&insurance=0&orderid=11&phone=18861331676&price=12&remark=&status=-1&time=2015-11-07%2014%3A30%3A34&title=%E6%89%BE%E4%BA%BA&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0020s ]
+ERR: 1062:Duplicate entry '11' for key 1
+ [ SQL语句 ] : INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','11','找人','-1','12','2015-11-07 14:30:34','0','人肉搜索 黄一璐','','18861331676')
+ERR: 1062:Duplicate entry '11' for key 1
+ [ SQL语句 ] : INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','11','找人','-1','12','2015-11-07 14:30:34','0','人肉搜索 黄一璐','','18861331676')
+
+[ 2015-11-07T14:28:59+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E5%91%A8%E6%97%A5%EF%BC%8C%20%E9%9A%8F%E6%97%B6%E9%83%BD%E5%8F%AF%E4%BB%A5%20%20&insurance=0&orderid=9&phone=11100&price=10&remark=&status=-1&time=2015-11-07%2014%3A30%3A37&title=%E6%89%93%E4%BA%BA&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0020s ]
+SQL: INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','9','打人','-1','10','2015-11-07 14:30:37','0','周日， 随时都可以  ','','11100') [ RunTime:0.0059s ]
+
+[ 2015-11-07T14:29:01+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E7%9C%8B%E7%9C%8B%E7%9C%8B%E7%9C%8B%E7%9C%8B%E7%9C%8B%E7%9C%8B%EF%BC%8C%EF%BC%8C%EF%BC%8C%EF%BC%8C%EF%BC%8C%E9%82%A3%E6%98%AF%E4%BB%80%E4%B9%88%E5%82%BB%E9%80%BC&insurance=0&orderid=8&phone=15606946786&price=22&remark=&status=-1&time=2015-11-07%2014%3A30%3A39&title=%E5%8D%81%E4%B8%87%E4%B8%AA%E5%BC%84%E5%95%A5%E5%AD%90&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0020s ]
+SQL: INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','8','十万个弄啥子','-1','22','2015-11-07 14:30:39','0','看看看看看看看，，，，，那是什么傻逼','','15606946786') [ RunTime:0.0049s ]
+
+[ 2015-11-07T14:29:03+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E6%98%8E%E5%A4%A9%E4%B8%8B%E5%8D%88&insurance=0&orderid=7&phone=15606946786&price=10&remark=&status=-1&time=2015-11-07%2014%3A30%3A41&title=%E6%89%BE%E4%B8%AA%E4%BA%BA%E8%81%8A%E5%A4%A9&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0010s ]
+SQL: INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','7','找个人聊天','-1','10','2015-11-07 14:30:41','0','明天下午','','15606946786') [ RunTime:0.0039s ]
+
+[ 2015-11-07T14:29:04+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E6%98%8E%E5%A4%A9%E4%B8%8B%E5%8D%88&insurance=0&orderid=7&phone=15606946786&price=10&remark=&status=-1&time=2015-11-07%2014%3A30%3A43&title=%E6%89%BE%E4%B8%AA%E4%BA%BA%E8%81%8A%E5%A4%A9&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0010s ]
+ERR: 1062:Duplicate entry '7' for key 1
+ [ SQL语句 ] : INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','7','找个人聊天','-1','10','2015-11-07 14:30:43','0','明天下午','','15606946786')
+ERR: 1062:Duplicate entry '7' for key 1
+ [ SQL语句 ] : INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','7','找个人聊天','-1','10','2015-11-07 14:30:43','0','明天下午','','15606946786')
+
+[ 2015-11-07T14:29:23+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E5%88%B0%E6%96%87%E6%98%9F%E5%B9%BF%E5%9C%BA%20%20%E5%90%83%E5%90%83%E5%90%83%E3%80%82%E3%80%82%E3%80%82%E3%80%82&insurance=0&orderid=4&phone=110&price=1&remark=&status=-1&time=2015-11-07%2014%3A31%3A02&title=%E5%90%83%E9%A5%AD%E5%8E%BB&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0020s ]
+SQL: INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','4','吃饭去','-1','1','2015-11-07 14:31:02','0','到文星广场  吃吃吃。。。。','','110') [ RunTime:0.0039s ]
+
+[ 2015-11-07T14:29:27+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E6%98%AF%E4%B8%80%E4%B8%AA%E5%BE%88%E8%BD%BB%E7%9A%84%E5%B0%8F%E4%B8%9C%E8%A5%BF%EF%BC%8C%E5%85%B7%E4%BD%93%E5%8D%95%E5%8F%B7%EF%BC%9A%E8%AF%B7%E7%94%B5%E8%AF%9D%E8%81%94%E7%B3%BB%E6%88%91&insurance=0&orderid=5&phone=18861331676&price=2&remark=%E6%98%93%E7%A2%8E&status=-1&time=2015-11-07%2014%3A31%3A06&title=%E5%8E%BB%E6%A0%A1%E5%9B%AD%E5%BF%AB%E9%80%92%E5%8F%96%E5%BF%AB%E9%80%92&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0020s ]
+SQL: INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','5','去校园快递取快递','-1','2','2015-11-07 14:31:06','0','是一个很轻的小东西，具体单号：请电话联系我','易碎','18861331676') [ RunTime:0.0029s ]
+
+[ 2015-11-07T14:29:35+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E6%98%8E%E5%A4%A9%E6%97%A9%E4%B8%8A%EF%BC%8C%E5%B8%AE%E5%BF%99%E4%B9%B0%E4%BB%BD%E8%8B%8F%E5%B7%9E%E6%97%A9%E6%8A%A5%EF%BC%8C%E9%80%81%E5%88%B0%E9%AB%98%E5%8D%9A%E6%95%99%E8%82%B2%E5%8C%BAG%E6%A5%BC%E4%BF%9D%E5%AE%89%E5%AE%A4&insurance=1&orderid=1&phone=15606946786&price=1&remark=%E5%BD%93%E5%A4%A9%E7%9A%84%E6%97%A9%E6%8A%A5&status=-1&time=2015-11-07%2014%3A31%3A14&title=%E4%B9%B0%E4%BB%BD%E6%8A%A5%E7%BA%B8&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0020s ]
+SQL: INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','1','买份报纸','-1','1','2015-11-07 14:31:14','1','明天早上，帮忙买份苏州早报，送到高博教育区G楼保安室','当天的早报','15606946786') [ RunTime:0.0049s ]
+
+[ 2015-11-07T14:29:37+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E6%98%8E%E5%A4%A9%E4%B8%AD%E5%8D%88%E5%8F%96%E5%BF%AB%E9%80%92%EF%BC%88%E5%9C%86%E9%80%9A%EF%BC%89&insurance=1&orderid=2&phone=15046623624&price=10&remark=&status=-1&time=2015-11-07%2014%3A31%3A16&title=%E5%8F%96%E5%BF%AB%E9%80%92&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0020s ]
+SQL: INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','2','取快递','-1','10','2015-11-07 14:31:16','1','明天中午取快递（圆通）','','15046623624') [ RunTime:0.0029s ]
+
+[ 2015-11-07T14:30:38+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-07T14:30:39+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0029s ]
+
+[ 2015-11-07T14:30:39+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0000s ]
+
+[ 2015-11-07T14:44:26+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-07T14:44:27+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0000s ]
+
+[ 2015-11-07T14:44:27+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0000s ]
+
+[ 2015-11-07T14:46:17+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-07T14:46:17+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0029s ]
+
+[ 2015-11-07T14:46:18+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0010s ]
+
+[ 2015-11-07T14:51:29+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-07T14:51:30+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0000s ]
+
+[ 2015-11-07T14:51:31+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0000s ]
+
+[ 2015-11-07T14:53:10+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-07T14:53:10+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0000s ]
+
+[ 2015-11-07T14:53:11+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0000s ]
+
+[ 2015-11-07T14:53:41+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-07T14:53:41+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0000s ]
+
+[ 2015-11-07T14:53:42+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0000s ]
+
+[ 2015-11-07T14:54:40+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-07T14:54:40+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0000s ]
+
+[ 2015-11-07T14:54:41+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0000s ]
+
+[ 2015-11-07T14:56:43+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-07T14:56:43+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0000s ]
+
+[ 2015-11-07T14:56:44+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0000s ]
+
+[ 2015-11-07T15:17:46+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-07T15:17:46+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0010s ]
+
+[ 2015-11-07T15:17:47+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0010s ]
+
+[ 2015-11-07T15:19:21+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-07T15:19:21+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0010s ]
+
+[ 2015-11-07T15:19:22+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0010s ]
+
+[ 2015-11-07T15:24:20+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0010s ]
+
+[ 2015-11-07T15:24:20+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-07T15:24:21+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0020s ]
+
+[ 2015-11-07T15:30:05+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0264s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-07T15:30:05+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0234s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0186s ]
+
+[ 2015-11-07T15:30:05+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0000s ]
+
+[ 2015-11-07T15:31:26+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-07T15:31:26+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0000s ]
+
+[ 2015-11-07T15:31:27+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0000s ]
+
+[ 2015-11-07T15:31:57+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-07T15:31:57+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0020s ]
+
+[ 2015-11-07T15:31:58+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0000s ]
+
+[ 2015-11-07T15:32:21+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E5%91%A8%E5%85%AD%E6%99%9A%E4%B8%8A6%E7%82%B9%E5%88%B0%E6%9D%A8%E5%8D%97%E8%B7%AF%E5%8F%A3&insurance=0&orderid=6&phone=15606946786&price=11&remark=%E5%87%86%E6%97%B6&status=-1&time=2015-11-07%2015%3A34%3A01&title=%E5%8F%91%E4%BC%A0%E5%8D%95&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0225s ]
+SQL: INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','6','发传单','-1','11','2015-11-07 15:34:01','0','周六晚上6点到杨南路口','准时','15606946786') [ RunTime:0.0039s ]
+
+[ 2015-11-07T15:32:29+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E5%88%B0%E6%96%87%E6%98%9F%E5%B9%BF%E5%9C%BA%20%20%E5%90%83%E5%90%83%E5%90%83%E3%80%82%E3%80%82%E3%80%82%E3%80%82&insurance=0&orderid=4&phone=110&price=1&remark=&status=-1&time=2015-11-07%2015%3A34%3A08&title=%E5%90%83%E9%A5%AD%E5%8E%BB&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0020s ]
+ERR: 1062:Duplicate entry '4' for key 1
+ [ SQL语句 ] : INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','4','吃饭去','-1','1','2015-11-07 15:34:08','0','到文星广场  吃吃吃。。。。','','110')
+ERR: 1062:Duplicate entry '4' for key 1
+ [ SQL语句 ] : INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','4','吃饭去','-1','1','2015-11-07 15:34:08','0','到文星广场  吃吃吃。。。。','','110')
+
+[ 2015-11-07T15:36:40+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-07T15:36:40+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0000s ]
+
+[ 2015-11-07T15:36:41+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0000s ]
+
+[ 2015-11-07T15:36:55+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E6%98%AF%E4%B8%80%E4%B8%AA%E5%BE%88%E8%BD%BB%E7%9A%84%E5%B0%8F%E4%B8%9C%E8%A5%BF%EF%BC%8C%E5%85%B7%E4%BD%93%E5%8D%95%E5%8F%B7%EF%BC%9A%E8%AF%B7%E7%94%B5%E8%AF%9D%E8%81%94%E7%B3%BB%E6%88%91&insurance=0&orderid=5&phone=18861331676&price=2&remark=%E6%98%93%E7%A2%8E&status=-1&time=2015-11-07%2015%3A38%3A34&title=%E5%8E%BB%E6%A0%A1%E5%9B%AD%E5%BF%AB%E9%80%92%E5%8F%96%E5%BF%AB%E9%80%92&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0020s ]
+SQL: INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','5','去校园快递取快递','-1','2','2015-11-07 15:38:34','0','是一个很轻的小东西，具体单号：请电话联系我','易碎','18861331676') [ RunTime:0.0059s ]
+
+[ 2015-11-07T15:37:01+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E6%98%8E%E5%A4%A9%E6%97%A9%E4%B8%8A%EF%BC%8C%E5%B8%AE%E5%BF%99%E4%B9%B0%E4%BB%BD%E8%8B%8F%E5%B7%9E%E6%97%A9%E6%8A%A5%EF%BC%8C%E9%80%81%E5%88%B0%E9%AB%98%E5%8D%9A%E6%95%99%E8%82%B2%E5%8C%BAG%E6%A5%BC%E4%BF%9D%E5%AE%89%E5%AE%A4&insurance=1&orderid=1&phone=15606946786&price=1&remark=%E5%BD%93%E5%A4%A9%E7%9A%84%E6%97%A9%E6%8A%A5&status=-1&time=2015-11-07%2015%3A38%3A41&title=%E4%B9%B0%E4%BB%BD%E6%8A%A5%E7%BA%B8&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0020s ]
+SQL: INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','1','买份报纸','-1','1','2015-11-07 15:38:41','1','明天早上，帮忙买份苏州早报，送到高博教育区G楼保安室','当天的早报','15606946786') [ RunTime:0.0049s ]
+
+[ 2015-11-07T15:38:49+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E5%88%B0%E6%96%87%E6%98%9F%E5%B9%BF%E5%9C%BA%20%20%E5%90%83%E5%90%83%E5%90%83%E3%80%82%E3%80%82%E3%80%82%E3%80%82&insurance=0&orderid=4&phone=110&price=1&remark=&status=-1&time=2015-11-07%2015%3A40%3A28&title=%E5%90%83%E9%A5%AD%E5%8E%BB&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0020s ]
+SQL: INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','4','吃饭去','-1','1','2015-11-07 15:40:28','0','到文星广场  吃吃吃。。。。','','110') [ RunTime:0.0039s ]
+
+[ 2015-11-07T15:41:43+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-07T15:41:43+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0000s ]
+
+[ 2015-11-07T15:41:44+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0000s ]
+
+[ 2015-11-07T15:43:57+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-07T15:43:58+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0010s ]
+
+[ 2015-11-07T15:44:02+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0000s ]
+
+[ 2015-11-07T15:44:31+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E4%BB%8A%E5%A4%A9%E6%99%9A%E4%B8%8A%E4%BA%94%E7%82%B9%20%20%20%E4%B9%B0%E4%B8%80%E4%B8%AA%E7%99%BD%E8%8F%9C&insurance=0&orderid=10&phone=15046623624&price=20&remark=&status=-1&time=2015-11-07%2015%3A46%3A08&title=%E4%B9%B0%E8%8F%9C&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0020s ]
+SQL: INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','10','买菜','-1','20','2015-11-07 15:46:08','0','今天晚上五点   买一个白菜','','15046623624') [ RunTime:0.0039s ]
+
+[ 2015-11-07T15:44:32+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E4%BB%8A%E5%A4%A9%E6%99%9A%E4%B8%8A%E4%BA%94%E7%82%B9%20%20%20%E4%B9%B0%E4%B8%80%E4%B8%AA%E7%99%BD%E8%8F%9C&insurance=0&orderid=10&phone=15046623624&price=20&remark=&status=-1&time=2015-11-07%2015%3A46%3A09&title=%E4%B9%B0%E8%8F%9C&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0020s ]
+ERR: 1062:Duplicate entry '10' for key 1
+ [ SQL语句 ] : INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','10','买菜','-1','20','2015-11-07 15:46:09','0','今天晚上五点   买一个白菜','','15046623624')
+ERR: 1062:Duplicate entry '10' for key 1
+ [ SQL语句 ] : INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','10','买菜','-1','20','2015-11-07 15:46:09','0','今天晚上五点   买一个白菜','','15046623624')
+
+[ 2015-11-07T15:44:36+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E6%98%8E%E5%A4%A9%E4%B8%8B%E5%8D%88&insurance=0&orderid=7&phone=15606946786&price=10&remark=&status=-1&time=2015-11-07%2015%3A46%3A10&title=%E6%89%BE%E4%B8%AA%E4%BA%BA%E8%81%8A%E5%A4%A9&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0020s ]
+SQL: INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','7','找个人聊天','-1','10','2015-11-07 15:46:10','0','明天下午','','15606946786') [ RunTime:0.0059s ]
+
+[ 2015-11-07T15:44:38+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E5%91%A8%E5%85%AD%E6%99%9A%E4%B8%8A6%E7%82%B9%E5%88%B0%E6%9D%A8%E5%8D%97%E8%B7%AF%E5%8F%A3&insurance=0&orderid=6&phone=15606946786&price=11&remark=%E5%87%86%E6%97%B6&status=-1&time=2015-11-07%2015%3A46%3A13&title=%E5%8F%91%E4%BC%A0%E5%8D%95&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0020s ]
+SQL: INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','6','发传单','-1','11','2015-11-07 15:46:13','0','周六晚上6点到杨南路口','准时','15606946786') [ RunTime:0.0049s ]
+
+[ 2015-11-07T15:44:40+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E5%91%A8%E5%85%AD%E6%99%9A%E4%B8%8A6%E7%82%B9%E5%88%B0%E6%9D%A8%E5%8D%97%E8%B7%AF%E5%8F%A3&insurance=0&orderid=6&phone=15606946786&price=11&remark=%E5%87%86%E6%97%B6&status=-1&time=2015-11-07%2015%3A46%3A14&title=%E5%8F%91%E4%BC%A0%E5%8D%95&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0020s ]
+ERR: 1062:Duplicate entry '6' for key 1
+ [ SQL语句 ] : INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','6','发传单','-1','11','2015-11-07 15:46:14','0','周六晚上6点到杨南路口','准时','15606946786')
+ERR: 1062:Duplicate entry '6' for key 1
+ [ SQL语句 ] : INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','6','发传单','-1','11','2015-11-07 15:46:14','0','周六晚上6点到杨南路口','准时','15606946786')
+
+[ 2015-11-07T15:44:41+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E5%91%A8%E5%85%AD%E6%99%9A%E4%B8%8A6%E7%82%B9%E5%88%B0%E6%9D%A8%E5%8D%97%E8%B7%AF%E5%8F%A3&insurance=0&orderid=6&phone=15606946786&price=11&remark=%E5%87%86%E6%97%B6&status=-1&time=2015-11-07%2015%3A46%3A15&title=%E5%8F%91%E4%BC%A0%E5%8D%95&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0020s ]
+ERR: 1062:Duplicate entry '6' for key 1
+ [ SQL语句 ] : INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','6','发传单','-1','11','2015-11-07 15:46:15','0','周六晚上6点到杨南路口','准时','15606946786')
+ERR: 1062:Duplicate entry '6' for key 1
+ [ SQL语句 ] : INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','6','发传单','-1','11','2015-11-07 15:46:15','0','周六晚上6点到杨南路口','准时','15606946786')
+
+[ 2015-11-07T15:44:43+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E6%98%AF%E4%B8%80%E4%B8%AA%E5%BE%88%E8%BD%BB%E7%9A%84%E5%B0%8F%E4%B8%9C%E8%A5%BF%EF%BC%8C%E5%85%B7%E4%BD%93%E5%8D%95%E5%8F%B7%EF%BC%9A%E8%AF%B7%E7%94%B5%E8%AF%9D%E8%81%94%E7%B3%BB%E6%88%91&insurance=0&orderid=5&phone=18861331676&price=2&remark=%E6%98%93%E7%A2%8E&status=-1&time=2015-11-07%2015%3A46%3A17&title=%E5%8E%BB%E6%A0%A1%E5%9B%AD%E5%BF%AB%E9%80%92%E5%8F%96%E5%BF%AB%E9%80%92&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0020s ]
+SQL: INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','5','去校园快递取快递','-1','2','2015-11-07 15:46:17','0','是一个很轻的小东西，具体单号：请电话联系我','易碎','18861331676') [ RunTime:0.0049s ]
+
+[ 2015-11-07T15:44:46+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E6%98%8E%E5%A4%A9%E4%B8%AD%E5%8D%88%E5%8F%96%E5%BF%AB%E9%80%92%EF%BC%88%E5%9C%86%E9%80%9A%EF%BC%89&insurance=1&orderid=2&phone=15046623624&price=10&remark=&status=-1&time=2015-11-07%2015%3A46%3A22&title=%E5%8F%96%E5%BF%AB%E9%80%92&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0020s ]
+SQL: INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','2','取快递','-1','10','2015-11-07 15:46:22','1','明天中午取快递（圆通）','','15046623624') [ RunTime:0.0039s ]
+
+[ 2015-11-07T15:44:48+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E6%98%8E%E5%A4%A9%E4%B8%AD%E5%8D%88%E5%8F%96%E5%BF%AB%E9%80%92%EF%BC%88%E5%9C%86%E9%80%9A%EF%BC%89&insurance=1&orderid=2&phone=15046623624&price=10&remark=&status=-1&time=2015-11-07%2015%3A46%3A25&title=%E5%8F%96%E5%BF%AB%E9%80%92&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0020s ]
+ERR: 1062:Duplicate entry '2' for key 1
+ [ SQL语句 ] : INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','2','取快递','-1','10','2015-11-07 15:46:25','1','明天中午取快递（圆通）','','15046623624')
+ERR: 1062:Duplicate entry '2' for key 1
+ [ SQL语句 ] : INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','2','取快递','-1','10','2015-11-07 15:46:25','1','明天中午取快递（圆通）','','15046623624')
+
+[ 2015-11-07T15:44:49+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Order/insert?detail=%E6%98%8E%E5%A4%A9%E4%B8%AD%E5%8D%88%E5%8F%96%E5%BF%AB%E9%80%92%EF%BC%88%E5%9C%86%E9%80%9A%EF%BC%89&insurance=1&orderid=2&phone=15046623624&price=10&remark=&status=-1&time=2015-11-07%2015%3A46%3A27&title=%E5%8F%96%E5%BF%AB%E9%80%92&userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_order` [ RunTime:0.0010s ]
+ERR: 1062:Duplicate entry '2' for key 1
+ [ SQL语句 ] : INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','2','取快递','-1','10','2015-11-07 15:46:27','1','明天中午取快递（圆通）','','15046623624')
+ERR: 1062:Duplicate entry '2' for key 1
+ [ SQL语句 ] : INSERT INTO `c_order` (`c_user_userid`,`l_order_orderid`,`ordertitle`,`orderstatus`,`orderprice`,`ordertime`,`orderinsurance`,`orderdetail`,`orderremark`,`orderphone`) VALUES ('2','2','取快递','-1','10','2015-11-07 15:46:27','1','明天中午取快递（圆通）','','15046623624')
+
+[ 2015-11-07T15:45:03+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-07T15:45:03+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0000s ]
+
+[ 2015-11-07T15:45:04+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0010s ]
+
+[ 2015-11-07T15:47:09+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/User/queryName?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_user` WHERE `userid` = 2  [ RunTime:0.0010s ]
+
+[ 2015-11-07T15:54:08+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-07T15:54:08+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0000s ]
+
+[ 2015-11-07T15:54:09+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0000s ]
+
+[ 2015-11-07T15:55:40+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-07T15:55:40+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0000s ]
+
+[ 2015-11-07T15:55:41+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0000s ]
+
+[ 2015-11-07T16:09:04+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-07T16:09:04+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0000s ]
+
+[ 2015-11-07T16:09:05+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0010s ]
+
+[ 2015-11-07T16:12:19+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-07T16:12:19+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0000s ]
+
+[ 2015-11-07T16:12:20+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0000s ]
+
+[ 2015-11-07T16:27:27+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-07T16:27:28+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0000s ]
+
+[ 2015-11-07T16:27:28+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0000s ]
+
+[ 2015-11-07T16:30:44+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-07T16:30:44+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0000s ]
+
+[ 2015-11-07T16:30:45+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0000s ]
+
+[ 2015-11-07T16:34:01+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0000s ]
+
+[ 2015-11-07T16:34:02+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0000s ]
+
+[ 2015-11-07T16:34:02+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0000s ]
+
+[ 2015-11-07T16:38:08+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/UserInfo/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `c_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_userinfo`  [ RunTime:0.0010s ]
+
+[ 2015-11-07T16:38:08+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Location/insert?userid=2&locationinfo=0.000000,0.000000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `c_location` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_location` WHERE (  c_user_userid = '2' )  [ RunTime:0.0000s ]
+
+[ 2015-11-07T16:38:09+08:00 ] 58.210.89.186 /iCrazy/index.php/Home/Credit/query?userid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `c_credit` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `c_credit` WHERE `c_user_userid` = 2  [ RunTime:0.0000s ]
+
