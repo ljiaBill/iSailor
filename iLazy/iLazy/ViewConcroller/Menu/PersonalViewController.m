@@ -488,8 +488,12 @@
     PersonalService * service = [[PersonalService alloc]init];
     [service insertUserImage:self.imageNew and:^(NSDictionary *dataDic) {
         
-        NSDictionary * dic = [[dataDic objectForKey:@"message"] objectForKey:@"upload"];
-        self.userimage = [dic objectForKey:@"savename"];
+        if([[dataDic objectForKey:@"code"] isEqualToString:@"error"]){
+        
+        }else{
+            NSDictionary * dic = [[dataDic objectForKey:@"message"] objectForKey:@"upload"];
+            self.userimage = [dic objectForKey:@"savename"];
+        }
     }];
     
     [self dismissViewControllerAnimated:YES completion:nil];

@@ -118,13 +118,32 @@
         NSLog(@"请求添加Lazy用户位置失败!");
         
     }];
+}
 
+//修改Lazy位置用户信息
+- (void)alterLazyLocationInfo:(NSMutableDictionary *)UserInfoDic and:(void (^)(NSDictionary * dataDic))succeedAlter
+{
+    //实例化对象
+    AFHTTPRequestOperationManager * manager = [AFHTTPRequestOperationManager manager];
+    
+    manager.responseSerializer = [AFHTTPResponseSerializer serializer];
+    
+    [manager GET:INSERT_ILAZY_LOCATION parameters:UserInfoDic success:^(AFHTTPRequestOperation *operation, NSData *responseObject) {
+        
+        NSDictionary * dic = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableLeaves error:nil];
+        
+        succeedAlter(dic);
+        
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        
+        NSLog(@"请求修改用户位置信息失败!");
+        
+    }];
 }
 
 //修改Lazy用户信息
 - (void)alterLazyUserInfo:(NSMutableDictionary *)UserInfoDic and:(void (^)(NSDictionary * dataDic))succeedAlter
 {
-    
     //实例化对象
     AFHTTPRequestOperationManager * manager = [AFHTTPRequestOperationManager manager];
     

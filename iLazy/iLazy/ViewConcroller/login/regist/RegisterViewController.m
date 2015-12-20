@@ -401,7 +401,7 @@
         
         self.captchaBtn.titleLabel.font = [UIFont systemFontOfSize:14.f];
         self.captchaBtn.backgroundColor = COLORMAMP(190,190,190, 1);
-        NSString *title = [NSString stringWithFormat:@" 重新获取(%lds)", (long)_second];
+        NSString *title = [NSString stringWithFormat:@"%lds后获取", (long)_second];
         [self.captchaBtn setTitle:title forState:UIControlStateNormal];
     }
 }

@@ -507,6 +507,8 @@
         //设置缩放级别
         [_mapView setZoomLevel:14.09];
     }
+    //修改Lazy用户位置
+    [self alterCrazyLocation];
 }
 
 //定位模式改变时调用该方法
@@ -882,6 +884,38 @@
     MapService *mapDate = [[MapService alloc]init];
     
     [mapDate insertCrazyLocationInfo:LocationInfoDic and:^(NSDictionary *dataDic) {
+        
+        NSString * str = [dataDic objectForKey:@"code"];
+        if([str isEqualToString:@"succeed"])
+        {
+            
+            NSString *userid = [dataDic objectForKey:@"userid"];
+            
+            NSLog(@"userid = %@",userid);
+            
+        }else
+        {
+            NSString *message =  [dataDic objectForKey:@"message"];
+            
+            NSLog(@"message = %@",message);
+        }
+    }];
+}
+//修改Crazy用户位置
+- (void)alterCrazyLocation{
+    
+    NSString *locationin = [[NSString alloc]initWithFormat:@"%f,%f",self.Lazylatitude,self.Lazylongitude];
+    
+    NSLog(@"%@",locationin);
+    
+    //存自己当前的位置点
+    NSMutableDictionary *LocationInfoDic = [NSMutableDictionary dictionary];
+    [LocationInfoDic setValue:locationin forKey:@"locationinfo"];
+    [LocationInfoDic setValue:self.c_userid forKey:@"userid"];
+    
+    MapService *mapDate = [[MapService alloc]init];
+    
+    [mapDate updateCrazyLocationInfo:LocationInfoDic and:^(NSDictionary *dataDic) {
         
         NSString * str = [dataDic objectForKey:@"code"];
         if([str isEqualToString:@"succeed"])

@@ -95,6 +95,28 @@
     
 }
 
+//修改Crazy用户位置信息
+- (void)updateCrazyLocationInfo:(NSMutableDictionary *)LocationInfo and:(void (^)(NSDictionary * dataDic))succeedAlter{
+    
+    //实例化对象
+    AFHTTPRequestOperationManager * manager = [AFHTTPRequestOperationManager manager];
+    
+    manager.responseSerializer = [AFHTTPResponseSerializer serializer];
+    
+    [manager GET:INSERT_ILAZY_LOCATION parameters:LocationInfo success:^(AFHTTPRequestOperation *operation, NSData *responseObject) {
+        
+        NSDictionary * dic = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableLeaves error:nil];
+        
+        succeedAlter(dic);
+        
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        
+        NSLog(@"请求修改用户信息失败!");
+        
+    }];
+    
+}
+
 //添加Crazy用户位置
 - (void)insertCrazyLocationInfo:(NSMutableDictionary *)LocationInfo and:(void (^)(NSDictionary * dataDic))succeedInsert{
     

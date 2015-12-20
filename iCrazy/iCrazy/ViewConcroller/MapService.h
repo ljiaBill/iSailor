@@ -44,6 +44,7 @@
 //查询Crazy用户信用度信息
 - (void)selectUserCredit:(NSDictionary *)userid and:(void (^) (NSDictionary *dataDic))succeedRequest;
 
-
+//修改Crazy用户位置信息
+- (void)updateCrazyLocationInfo:(NSMutableDictionary *)LocationInfo and:(void (^)(NSDictionary * dataDic))succeedAlter;
 
 @end

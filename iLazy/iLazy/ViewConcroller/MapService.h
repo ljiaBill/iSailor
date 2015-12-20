@@ -36,4 +36,7 @@
 - (void)requestUserCreditInfo:(void (^)(NSDictionary * dataDic))succeedRequest;
 
 
+//修改Lazy位置用户信息
+- (void)alterLazyLocationInfo:(NSMutableDictionary *)UserInfoDic and:(void (^)(NSDictionary * dataDic))succeedAlter;
+
 @end
